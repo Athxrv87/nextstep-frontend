@@ -3,7 +3,7 @@ import toast from 'react-hot-toast';
 import { AuthResponse, LoginRequest, SignupRequest, Analysis, ChatMessage, ChatRequest, JDMatchResponse } from '@/types';
 import { User } from '@/types';
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8080/api';
+const API_URL = process.env.NEXT_PUBLIC_API_URL;
 
 class ApiClient {
   private client: AxiosInstance;
