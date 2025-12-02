@@ -1,6 +1,6 @@
 [build]
   command = "npm run build"
-  publish = "build"          # change to "build" if using CRA
+  publish = ".next"          # change to "build" if using CRA
 
 # -----------------------
 # 🔥 Fix Google OAuth Issues (Remove COOP/COEP)
